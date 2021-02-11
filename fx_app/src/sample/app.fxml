@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <children>
+        <AnchorPane layoutY="79.0" prefHeight="322.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="203.0" layoutY="24.0" prefHeight="38.0" prefWidth="295.0" text="Hello World">
+                    <font>
+                        <Font name="Monotype Corsiva" size="63.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imageButton" fitHeight="199.0" fitWidth="179.0" layoutX="269.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/photo_2021-01-13_11-15-55.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="24.0" layoutY="14.0" prefHeight="57.0" prefWidth="103.0" text="FxApp" textFill="#25f23d">
+            <font>
+                <Font name="Papyrus" size="28.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

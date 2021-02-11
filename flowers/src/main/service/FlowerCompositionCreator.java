@@ -27,7 +27,7 @@ public class FlowerCompositionCreator {
 
             System.out.println("press  1 for add flower");
             System.out.println("press 2 for add packaging");
-            System.out.println("press 3 for exit");
+            System.out.println("press 3 for main menu");
             choice = new Scanner(System.in).nextLine();
             switch (choice) {
                 case "1":
